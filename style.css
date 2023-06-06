@@ -68,6 +68,17 @@ hr{
 .show-nav{
     height: auto;
 }
+.social{
+    display: flex;
+    margin-right: 50px;
+}
+.social img{
+    height: 2rem;
+    padding: 5px 10px;
+}
+.social img:nth-child(n+2){
+    filter: invert(92%) sepia(100%) saturate(0) hue-rotate(202deg) brightness(106%) contrast(106%);
+}
 
 /********************/
 

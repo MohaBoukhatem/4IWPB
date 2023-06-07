@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Mon Profile</header>
+      <form action="#" class="form">
+        <div class="column">
+          <div class="input-box">
+            <label>Email</label>
+            <input type="text" placeholder="Entrez votre adresse mail" value = "Ghilesyalaoui@gmail.com"  />
+          </div>
+          <div class="input-box">
+            <label>Mot de Passe</label>
+            <input type="password" placeholder="********"  value = "ghilesyalaoui" required />
+          </div>
+          
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Prénom</label>
+            <input type="text" placeholder="Entrez votre Prénom" value = "Ghiles"  />
+          </div>
+          <div class="input-box">
+            <label>Nom</label>
+            <input type="text" placeholder="Entrez votre Nom" value = "Yalaoui"  />
+          </div>
+        </div>
+
+        
+        <div class="column">
+          <div class="input-box">
+            <label>Adresse</label>
+            <input type="text" placeholder="Entrez votre adresse" value = "Boulevard de Waterloo 31"  />
+          </div>
+          <div class="input-box">
+            <label>Code Postal</label>
+            <input type="number" placeholder="Entrez votre code postal"  value ="1000"/>
+          </div>
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Ville</label>
+            <input type="text" placeholder="Entrez votre Ville" value ="Bruxelles" />
+          </div>
+          <div class="input-box">
+            <label>Pays</label>
+            <div class="select-box">
+              <select>
+                <option selected>Belgique</option>
+                <option>Algérie</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            
+            <label>Phone Number</label>
+            
+            <input type="text" placeholder="Entrer votre Numéro" value="+3197010517668"/>
+            
+          </div>
+          <div class="input-box">
+            <label>Birth Date</label>
+            <input type="date" placeholder="Entrez votre date de naissance" value="1999-11-23"  />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Genre</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Homme</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Femme</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Autre</label>
+            </div>
+          </div>
+        </div>
+        
+        <button>Valider</button>
+      </form>
+    </section>
+  </body>
+</html>

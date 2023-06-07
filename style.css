@@ -1,6 +1,147 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap');
 
+.body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #001324;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  background:  rgba(0, 61, 96,1);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container header {
+  font-size: 2rem;
+  color: white;
+  font-weight:900;
+  text-align: left;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: white;
+  font-weight: bold;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: white;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+  background-color: #001324;
+  font-family: 'Montserrat',Arial,sans-serif;
+
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(253 195 0);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: white;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  background-color: #001324;
+}
+
+.form button {
+  height: 40px;
+  width: 15%;
+  color:#001324;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(253 195 0);
+  
+  
+}
+.form .supp{
+  height: 40px;
+  width: 30%;
+  background:#001324;
+  color:  #ddd;
+  
+}
+.form button:hover {
+  color: rgb(253 195 0);
+  background:  #001324;
+}
+.form .supp:hover {
+  background: #ddd;
+  color:  #001324;
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -28,6 +169,7 @@ ul{
 
 a{
     text-decoration: none;
+    font-weight: 550;
     color: #fff;
 }
 
@@ -420,7 +562,10 @@ main a:hover{
     opacity:0;
 }
 
-
+hr{
+  color: #003d60; 
+  margin: 20px ;
+}
 @media(max-width: 460px){
     .hot-topic-content h2{
         font-size: 16px;

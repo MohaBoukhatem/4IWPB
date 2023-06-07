@@ -1,100 +1,229 @@
 <!DOCTYPE html>
-<!---Coding By CodingLab | www.codinglabweb.com--->
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!--<title>Registration Form in HTML CSS</title>-->
-    <!---Custom CSS File--->
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    
   </head>
-  <body>
-    <section class="container">
-      <header>Mon Profile</header>
-      <form action="#" class="form">
-        <div class="column">
-          <div class="input-box">
-            <label>Email</label>
-            <input type="text" placeholder="Entrez votre adresse mail" value = "Ghilesyalaoui@gmail.com"  />
+  <body >
+
+    <header>
+      <div class = "navigation-container">
+          <div class = "top-head">
+              
+              <div class="image">
+                  <img alt="" src="/images/RTBF.svg" loading="lazy" pinger-seen="true" width="90" height="24">
+              </div>
+
+              <div class = "ham-btn">
+                  <span>
+                      <i class = "fas fa-bars"></i>
+                  </span>
+              </div>
+
+              <div class = "times-btn">
+                  <span>
+                      <i class = "fas fa-times"></i>
+                  </span>
+              </div>
+              
           </div>
-          <div class="input-box">
-            <label>Mot de Passe</label>
-            <input type="password" placeholder="********"  value = "ghilesyalaoui" required />
+
+          <!-- nav bar -->
+          
+          <div class = "nav-bar" id = "nav-bar">
+              <nav>
+                  <ul>
+                      <li><a href = "#">Video</a></li>
+                      <li><a href = "#">Audio</a></li>
+                      <li><a href = "#">mon choix</a></li>
+                      <li><a href = "#">chaines</a></li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="social">
+              <img src="images/sun.svg" alt="sun">
+              <img src="images/search.svg" alt="search">
+              <img src="images/user.svg" alt="user">
+          </div>
+      </div>
+    </header>
+
+    <div class="body">
+      <section class="container">
+        <header>MON PROFILE</header>
+        <h3>Gérer mes données personnelles</h3>
+        <form action="#" class="form">
+          
+          <div class="column">
+            <div class="input-box">
+              <label>Email</label>
+              <input type="text" placeholder="Entrez votre adresse mail" value = "Ghilesyalaoui@gmail.com"  />
+            </div>
+            <div class="input-box">
+              <label>Mot de Passe</label>
+              <input type="password" placeholder="********"  value = "ghilesyalaoui" required />
+            </div>
+            
           </div>
           
-        </div>
-        <div class="column">
-          <div class="input-box">
-            <label>Prénom</label>
-            <input type="text" placeholder="Entrez votre Prénom" value = "Ghiles"  />
+          <div class="column">
+            <div class="input-box">
+              <label>Prénom</label>
+              <input type="text" placeholder="Entrez votre Prénom" value = "Ghiles"  />
+            </div>
+            <div class="input-box">
+              <label>Nom</label>
+              <input type="text" placeholder="Entrez votre Nom" value = "Yalaoui"  />
+            </div>
           </div>
-          <div class="input-box">
-            <label>Nom</label>
-            <input type="text" placeholder="Entrez votre Nom" value = "Yalaoui"  />
+         
+          <div class="column">
+            <div class="input-box">
+              <label>Adresse</label>
+              <input type="text" placeholder="Entrez votre adresse" value = "Boulevard de Waterloo 31"  />
+            </div>
+            <div class="input-box">
+              <label>Code Postal</label>
+              <input type="number" placeholder="Entrez votre code postal"  value ="1000"/>
+            </div>
           </div>
-        </div>
+          
+          <div class="column">
+            <div class="input-box">
+              <label>Ville</label>
+              <input type="text" placeholder="Entrez votre Ville" value ="Bruxelles" />
+            </div>
+            <div class="input-box">
+              <label>Pays</label>
+              <div class="select-box">
+                <select>
+                  <option selected>Belgique</option>
+                  <option>Algérie</option>
+                </select>
+              </div>
+            </div>
+          </div>
 
-        
-        <div class="column">
-          <div class="input-box">
-            <label>Adresse</label>
-            <input type="text" placeholder="Entrez votre adresse" value = "Boulevard de Waterloo 31"  />
-          </div>
-          <div class="input-box">
-            <label>Code Postal</label>
-            <input type="number" placeholder="Entrez votre code postal"  value ="1000"/>
-          </div>
-        </div>
-        <div class="column">
-          <div class="input-box">
-            <label>Ville</label>
-            <input type="text" placeholder="Entrez votre Ville" value ="Bruxelles" />
-          </div>
-          <div class="input-box">
-            <label>Pays</label>
-            <div class="select-box">
-              <select>
-                <option selected>Belgique</option>
-                <option>Algérie</option>
-              </select>
+          <div class="column">
+            <div class="input-box">
+              
+              <label>Phone Number</label>
+              
+              <input type="text" placeholder="Entrer votre Numéro" value="+3197010517668"/>
+              
+            </div>
+            <div class="input-box">
+              <label>Birth Date</label>
+              <input type="date" placeholder="Entrez votre date de naissance" value="1999-11-23"  />
             </div>
           </div>
-        </div>
+          <div class="gender-box">
+            <h3>Genre</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" checked />
+                <label for="check-male">Homme</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-female" name="gender" />
+                <label for="check-female">Femme</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-other" name="gender" />
+                <label for="check-other">Autre</label>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <button>Valider</button>
+            <button class="supp">Supprimer mon compte</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <hr>
+    <section class="footer">
 
-        <div class="column">
-          <div class="input-box">
-            
-            <label>Phone Number</label>
-            
-            <input type="text" placeholder="Entrer votre Numéro" value="+3197010517668"/>
-            
+      <div class="box-container">
+  
+          <div class="box">
+              <h3>thématiques</h3>
+              <a href="#">info</a>
+              <a href="#">sport</a>
+              <a href="#">actualités locales</a>
+              <a href="#">culture et musique</a>
+              <a href="#">environnement et nature</a>
+              <a href="#">santé et bien-etre</a>
+              <a href="#">sciences et technologies </a>
+              <a href="#">vie pratique</a>
           </div>
-          <div class="input-box">
-            <label>Birth Date</label>
-            <input type="date" placeholder="Entrez votre date de naissance" value="1999-11-23"  />
+          <div class="box">
+              <h3>services</h3>
+              <a href="#">actu en continu</a>
+              <a href="#">grille des programmes</a>
+              <a href="#">score centre</a>
+              <a href="#">météo</a>
+              <a href="#">trafic</a>
+              <a href="#">titres diffusés</a>
+              <a href="#">concours</a>
+              <a href="#">archives (sitemap)</a>
+              <a href="#">code promo</a>
           </div>
-        </div>
-        <div class="gender-box">
-          <h3>Genre</h3>
-          <div class="gender-option">
-            <div class="gender">
-              <input type="radio" id="check-male" name="gender" checked />
-              <label for="check-male">Homme</label>
-            </div>
-            <div class="gender">
-              <input type="radio" id="check-female" name="gender" />
-              <label for="check-female">Femme</label>
-            </div>
-            <div class="gender">
-              <input type="radio" id="check-other" name="gender" />
-              <label for="check-other">Autre</label>
-            </div>
+          <div class="box">
+              <h3>l'Actu décryptée</h3>
+              <a href="#">Matin Premiére</a>
+              <a href="#">déclic</a>
+              <a href="#">QR</a>
+              <a href="#">#investigation</a>
+              <a href="#">inside</a>
+              <a href="#">les Grenades</a>
+              <a href="#">faky (Fact-Checking)</a>
           </div>
-        </div>
-        
-        <button>Valider</button>
-      </form>
-    </section>
+          <div class="box">
+              <h3>radios</h3>
+              <a href="#">classic 21</a>
+              <a href="#">la Premiére</a>
+              <a href="#">vivacité</a>
+              <a href="#">tipik</a>
+              <a href="#">musiq3</a>
+              <a href="#">tarmac</a>
+              <a href="#">viva+</a>
+          </div>
+          <div class="box">
+              <h3>émissions</h3>
+              <a href="#">les grand cactus</a>
+              <a href="#">on n'est pas des pigeons</a>
+              <a href="#">the voice belgique</a>
+              <a href="#">jardins et loisirs</a>
+              <a href="#">le grande forme</a>
+              <a href="#">IXPé</a>
+              <a href="#">viva for life</a>
+          </div>
+          <div class="box">
+              <h3>nous contacter</h3>
+              <a href="#">contacter la RTBF</a>
+              <a href="#">recevoir la RTBF</a>
+              <a href="#">travailler à la RTBF</a>
+              <a href="#">notre entreprise</a>
+              <a href="#">presse</a>
+              <a href="#">éducation aux médias</a>
+          </div>
+  
+          
+  
+      </div>
+      <hr>
+  
+  </section>
   </body>
 </html>

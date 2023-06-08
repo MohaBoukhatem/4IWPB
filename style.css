@@ -274,7 +274,6 @@ hr{
 
 .banner-main-content h2{
     font-size: 2rem;
-    font-family: var(--heading);
 }
 
 .banner-main-content h3{
@@ -324,7 +323,6 @@ hr{
 
 .current-news-head span{
     display: block;
-    font-family: var(--heading);
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -422,7 +420,6 @@ main a:hover{
 .main-container-left h3{
     padding: 10px 0;
     font-size: 18px;
-    font-family: var(--heading);
 }
 
 .main-container-left p{
@@ -482,7 +479,6 @@ main a:hover{
 .main-container-right article h2{
     font-size: 18px;
     padding: 10px 0;
-    font-family: var(--heading);
 }
 
 .main-container-right article p{
@@ -512,7 +508,6 @@ main a:hover{
 .top_footer  div{
     width: 33.33%;
     display: flex;
-    margin-top: 20px;
 }
 .channels{
     margin-right: auto;
@@ -578,11 +573,6 @@ main a:hover{
     padding-top: 1.5rem;
     margin-top: 1.5rem;
 }
-
-/* .footer .credit span{
-    color:var(--green);
-} */
-
 .loader-container{
     position: fixed;
     top:0; left:0;
@@ -613,7 +603,10 @@ hr{
 @media(max-width:1050px) {
     .top_footer{
         flex-direction: column;
-        margin-top: 5px;
+        margin-top: 10px;
+    }
+    .top_footer div{
+        margin-top: 10px;
     }
     .channels{
         margin-left: auto;
@@ -625,6 +618,7 @@ hr{
         flex-direction: row;
         justify-content: space-between;
         width: 100% !important;
+        border-top: 1px solid rgb(0 80 125);
     }
     .social_media_icon{
         display: flex !important;
@@ -643,6 +637,12 @@ hr{
 
     .main-container-right article img{
         display: none;
+    }
+    .channels{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100% !important;
     }
 
 

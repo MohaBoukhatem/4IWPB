@@ -358,7 +358,12 @@ hr {
     cursor: pointer;
     position: relative;
 }
-
+.hamburger span{
+    font-family:  Montserrat, Arial sans-serif;
+    margin-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 .sidebar {
     height: 100%;
 }
@@ -559,6 +564,9 @@ hr {
     transform: translate(-50%, 0);
     background-color: rgb(253, 195, 0);
     content: "";
+}
+.navbar-items li a:hover {
+    font-weight: bold;
 }
 
 .navbar-items li:first-child a {

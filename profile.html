@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Profile</title>
+        <link rel="icon" type="image/png" href="/images/favicon.png">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -16,48 +17,97 @@
   </head>
   <body >
 
-    <header>
-      <div class = "navigation-container">
-          <div class = "top-head">
-              
-              <div class="image">
-                  <img alt="" src="/images/RTBF.svg" loading="lazy" pinger-seen="true" width="90" height="24">
-              </div>
+    <head>
 
-              <div class = "ham-btn">
-                  <span>
-                      <i class = "fas fa-bars"></i>
-                  </span>
-              </div>
-
-              <div class = "times-btn">
-                  <span>
-                      <i class = "fas fa-times"></i>
-                  </span>
+      <div class="head">
+          <div class="link">
+              <div class="logo">
+                  <a href="/home.html"><img src="images/RTBF.svg" class="RTBF" id="logo-img"></a>
               </div>
               
-          </div>
-
-          <!-- nav bar -->
-          
-          <div class = "nav-bar" id = "nav-bar">
-              <nav>
+              <nav class="navbar">
                   <ul>
-                      <li><a href = "#">Video</a></li>
-                      <li><a href = "#">Audio</a></li>
-                      <li><a href = "#">mon choix</a></li>
-                      <li><a href = "#">chaines</a></li>
+                      <li><a href="#">Video</a></li>
+                      <li><a href="#">Audio</a></li>
+                      <li><a href="#">mon choix</a></li>
+                      <li><a href="#">chaines</a></li>
                   </ul>
+              </nav>
+          </div>
+          <div class="one" >
+              <input type="checkbox" id="checkbtn">
+              <label for="checkbtn">
+                  <!-- <iconify-icon style="opacity: 0;" class="hamburger" icon="pajamas:hamburger">menu</iconify-icon> -->
+                  <i style="opacity: 0;" class = "fas fa-bars hamburger"><span>menu</span></i>
+                  <iconify-icon id="checkbtn2" class="quitter" icon="radix-icons:cross-1"></iconify-icon>
+              </label>
+
+              <nav class="sidebar">
+                  <ul>
+                      <li class="sub_sidebar">
+                          <div style="padding: 35px 0;"></div>
+                          <a href="#">Fil actu</a>
+                          <a href="#">Video</a>
+                          <a href="#">Audio</a>
+                          <a href="#">mon choix</a>
+                          <a href="#">chaines</a>
+                      </li>
+                  </ul>
+                  <div class="empty"></div>
               </nav>
           </div>
           <div class="social">
               <img src="images/sun.svg" alt="sun">
               <img src="images/search.svg" alt="search">
-              <img src="images/user.svg" alt="user">
+              <a href="/profile.html"><img src="images/user.svg" alt="user"></a>
           </div>
       </div>
-    </header>
+      <div class="bottom_head">
+          <div style="margin: auto;display: flex;align-items: center;">
 
+
+          <div class="two">
+              <input type="checkbox" id="checkbtn">
+              <label for="checkbtn">
+                  <!-- <iconify-icon style="margin-left: auto;" class="hamburger" icon="pajamas:hamburger"></iconify-icon> -->
+                  <i style="margin-right: 10px;" class = "fas fa-bars hamburger"><span>menu</span></i>
+                  <iconify-icon id="checkbtn2" class="quitter" icon="radix-icons:cross-1"></iconify-icon>
+              </label>
+
+              <nav class="sidebar">
+                  <ul>
+                      <li class="sub_sidebar">
+                          <div style="padding: 35px 0;"></div>
+                          <a href="#">Fil actu</a>
+                          <a href="#">Video</a>
+                          <a href="#">Audio</a>
+                          <a href="#">mon choix</a>
+                          <a href="#">chaines</a>
+                      </li>
+                  </ul>
+                  <div class="empty"></div>
+              </nav>
+          </div>
+          <nav class="navbar2">
+              <ul class="navbar-items">
+                  <li><a href="#home">acceuil</a></li>
+                  <li><a href="#about">filactu</a></li>
+                  <li><a href="#services">info</a></li>
+                  <li><a href="#portfolio">sport</a></li>
+                  <li><a href="#contact">actualités locales</a></li>
+                  <li><a href="#home">culture et musique</a></li>
+                  <li><a href="#about">environnement et nature</a></li>
+                  <li><a href="#services">santé et bien-etre</a></li>
+                  <li><a href="#portfolio">sciences et technolgies</a></li>
+                  <li><a href="#contact">santé et bien-etre</a></li>
+                  <li><a href="#home">vie pratique</a></li>
+                  <li><a href="#about">tous les sujets</a></li>
+              </ul>
+          </nav>
+      </div>
+      </div>
+
+  </head>
     <div class="body">
       <section class="container">
         <header>MON PROFILE</header>
@@ -153,9 +203,30 @@
     </div>
     <hr>
     <section class="footer">
+      <div class="top_footer">
+          <div class="channels">
+              <img src="images/RTBF.svg" class="RTBF" style="width:86px;height:30px;" alt="">
+              <img src="images/Auvio-fd-noir.svg" style="width:86px;height:30px;" alt="">
+          </div>
+          <div class="appdownload">
+              <img src="images/disponible-google-play.svg" style="width:133px;height:32px;" alt="">
+              <img src="images/disponible-app-store.svg" style="width:133px;height:32px;" alt="">
+          </div>
+          <!-- <hr class="blue_bar"> -->
+          <div class="social_media">
+              <span>suivez-nous</span>
+              <div class="social_media_icon">
+                  <img src="images/facebook.svg" class="RTBF" style="width:24px; height: 24px;" alt="">
+                  <img src="images/linkedin.svg" class="RTBF" style="width:24px; height: 24px;" alt="">
+                  <img src="images/twitter.svg" class="RTBF" style="width:24px; height: 24px;" alt="">
+              </div>
+
+          </div>
+      </div>
+
 
       <div class="box-container">
-  
+
           <div class="box">
               <h3>thématiques</h3>
               <a href="#">info</a>
@@ -218,12 +289,13 @@
               <a href="#">presse</a>
               <a href="#">éducation aux médias</a>
           </div>
-  
-          
-  
+
+
+
       </div>
-      <hr>
-  
-  </section>
+      <!-- <div class="credit"> copyright @ 2021 by <span>mr. web designer</span> </div> -->
+
+    </section>
+    <hr>
   </body>
 </html>

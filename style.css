@@ -21,6 +21,59 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
+
+.article-container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    /* background:  rgba(0, 61, 96,1); */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    
+    color: #ddd;
+  }
+
+.article-header{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.article-container .source{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+
+.article-container .main-text{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+.article-container .meta-info{
+    font-size: 12px;
+    margin: 35px 0;
+  }
+
+.article-body {
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight:600;
+    text-align: left;
+  }
+
+.article-body p {
+   margin-bottom: 25px;
+  }
+.article-body ul {
+    margin-bottom: 30px;
+   }
+.article-body .sub-title {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
 .container header {
     font-size: 2rem;
     color: white;

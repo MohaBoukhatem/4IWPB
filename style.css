@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    background: #001324;
+    color: #fff;
+}
 .body {
     min-height: 100vh;
     display: flex;
@@ -215,23 +227,6 @@
     }
 }
 /* Home template */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-:root {
-    --heading: 'Montserrat', sans-serif;
-}
-
-body {
-    font-family: Montserrat, Arial, sans-serif;
-    background: #001324;
-    color: #fff;
-}
-
-/* global styling */
 
 img {
     width: 100%;
@@ -266,46 +261,7 @@ hr {
 
 
 
-/* .nav-bar{
-    background: #333;
-    height: 0;
-    overflow: hidden;
-}
 
-    .ham-btn, .times-btn{
-        display: none!important;
-    }
-
-    .navigation-container{
-        display: flex;
-        background: rgba(0, 61, 96,1);
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .top-head{
-        flex: 0 0 15%;
-    }
-
-    .nav-bar{
-        flex: 1 0 auto;
-        height: 100%;
-        background: transparent;
-        max-width: 100%;
-    }
-
-    .nav-bar nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-bar nav ul li{
-        padding-right: 30px;
-    }
-
-    .nav-bar nav ul li:hover{
-        background: none;
-    } */
 
 .head {
     padding: 10px 9%;
@@ -526,32 +482,19 @@ hr {
 
 .navbar2 {
     height: 100%;
-    /* Set the desired height of the navbar */
     overflow: auto;
     max-width: 1000px;
     padding: 10px 0;
 }
 
-/* .hamburger::before {
-    content: "Menu";
-    position: absolute;
-    top: -8px;
-    right: 60%;
-    padding: 5px 10px;
-    color: #fff;
-    z-index: 1;
-} */
 
 .navbar-items {
     white-space: nowrap;
-    /* Prevent items from wrapping to a new line */
 }
 
 .navbar-items>li {
     display: inline-block;
-    /* Display items horizontally */
     padding: 0 10px;
-    /* Adjust the padding as needed */
 }
 
 .navbar-items li a {
@@ -643,9 +586,6 @@ hr {
 .nav-bar ul li a:hover {
     text-decoration: underline;
 }
-
-/* social -icons */
-
 
 
 /* banner */

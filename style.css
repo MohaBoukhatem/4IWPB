@@ -306,11 +306,7 @@ hr {
     transition: all .8s ease-in-out;
 }
 
-#checkbtn3 {
-    display: block;
-    right: -100%;
-    transition: all .8s ease-in-out;
-}
+
 
 .hamburger {
     display: block;
@@ -414,6 +410,50 @@ hr {
     transition: all .8s ease-in-out;
     position: fixed;
 }
+/* ù****** */
+
+#checkbtn3{display: none;}
+#checkbtn3:checked~.sidebar2 ul {
+    height: 0;
+    overflow: hidden;
+    transition: all .8s ease-in-out;
+    position: fixed;
+}
+
+.hamburger2
+{position: relative;}
+.sidebar2 ul{
+    position: absolute;
+    background: #003d60;
+    left: 0; 
+    right: 0; 
+    margin-right: auto; 
+    display: flex;
+
+}
+.navbar-items li a:hover::before {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 35px !important;
+    transform: translate(-50%, 0);
+    background-color: rgb(253, 195, 0);
+    content: "";
+}
+.sub_sidebar2{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    max-width: 80%;
+    overflow: auto;
+    
+}
+.navbar-items{
+    display: flex;
+    align-items: center;
+}
 .merge_nav{
     position: sticky;
     width: 100%;
@@ -488,6 +528,9 @@ hr {
     max-width: 1000px;
     padding: 10px 0;
 }
+.sub_sidebar2 a{
+    padding: 5px 15px !important;
+}
 
 
 .navbar-items {
@@ -523,20 +566,7 @@ hr {
 }
 
 
-.navbar-items li:first-child a {
-    position: relative;
-}
 
-.navbar-items li:first-child a::before {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    height: 3px;
-    width: 35px !important;
-    transform: translate(-50%, 0);
-    background-color: rgb(253, 195, 0);
-    content: "";
-}
 
 
 .footer .box-container {

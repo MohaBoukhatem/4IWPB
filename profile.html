@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,99 +16,105 @@
         <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
     
   </head>
-  <body >
+  
+  <body>
 
-    <head>
+    <div class="merge_nav">
+      <div style="max-width: 1440px;margin: auto;;display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      background-color: transparent;">
+          <div class="head">
+              <div class="link">
+                  <div class="logo">
+                      <a href="/home.html"><img src="images/RTBF.svg" class="RTBF" id="logo-img"></a>
+                  </div>
 
-      <div class="head">
-          <div class="link">
-              <div class="logo">
-                  <a href="/home.html"><img src="images/RTBF.svg" class="RTBF" id="logo-img"></a>
+                  <nav class="navbar">
+                      <ul>
+                          <li><a href="#">Video</a></li>
+                          <li><a href="#">Audio</a></li>
+                          <li><a href="#">mon choix</a></li>
+                          <li><a href="#">chaines</a></li>
+                      </ul>
+                  </nav>
               </div>
-              
-              <nav class="navbar">
-                  <ul>
-                      <li><a href="#">Video</a></li>
-                      <li><a href="#">Audio</a></li>
-                      <li><a href="#">mon choix</a></li>
-                      <li><a href="#">chaines</a></li>
-                  </ul>
-              </nav>
-          </div>
-          <div class="one" >
-              <input type="checkbox" id="checkbtn">
-              <label for="checkbtn">
-                  <!-- <iconify-icon style="opacity: 0;" class="hamburger" icon="pajamas:hamburger">menu</iconify-icon> -->
-                  <i style="opacity: 0;" class = "fas fa-bars hamburger"><span>menu</span></i>
-                  <iconify-icon id="checkbtn2" class="quitter" icon="radix-icons:cross-1"></iconify-icon>
-              </label>
+              <div class="one">
+                  <input type="checkbox" id="checkbtn">
+                  <label for="checkbtn">
+                      <!-- <iconify-icon style="opacity: 0;" class="hamburger" icon="pajamas:hamburger">menu</iconify-icon> -->
+                      <i style="opacity: 0;" class="fas fa-bars hamburger"><span>menu</span></i>
+                      <iconify-icon id="checkbtn2" class="quitter" icon="radix-icons:cross-1"></iconify-icon>
+                  </label>
 
-              <nav class="sidebar">
-                  <ul>
-                      <li class="sub_sidebar">
-                          <div style="padding: 35px 0;"></div>
-                          <a href="#">Fil actu</a>
-                          <a href="#">Video</a>
-                          <a href="#">Audio</a>
-                          <a href="#">mon choix</a>
-                          <a href="#">chaines</a>
-                      </li>
-                  </ul>
-                  <div class="empty"></div>
-              </nav>
-          </div>
-          <div class="social">
-              <img src="images/sun.svg" alt="sun">
-              <img src="images/search.svg" alt="search">
-              <a href="/profile.html"><img src="images/user.svg" alt="user"></a>
+                  <nav class="sidebar">
+                      <ul>
+                          <li class="sub_sidebar">
+                              <div style="padding: 35px 0;"></div>
+                              <a href="#">Fil actu</a>
+                              <a href="#">Video</a>
+                              <a href="#">Audio</a>
+                              <a href="#">mon choix</a>
+                              <a href="#">chaines</a>
+                          </li>
+                      </ul>
+                      <div class="empty"></div>
+                  </nav>
+              </div>
+              <div class="social">
+                  <img src="images/sun.svg" alt="sun">
+                  <img src="images/search.svg" alt="search">
+                  <a href="/profile.html"><img class="profile" src="images/user.svg" alt="user"></a>
+              </div>
           </div>
       </div>
       <div class="bottom_head">
           <div style="margin: auto;display: flex;align-items: center;">
 
 
-          <div class="two">
-              <input type="checkbox" id="checkbtn">
-              <label for="checkbtn">
-                  <!-- <iconify-icon style="margin-left: auto;" class="hamburger" icon="pajamas:hamburger"></iconify-icon> -->
-                  <i style="margin-right: 10px;" class = "fas fa-bars hamburger"><span>menu</span></i>
-                  <iconify-icon id="checkbtn2" class="quitter" icon="radix-icons:cross-1"></iconify-icon>
-              </label>
+              <div class="two">
+                  <input type="checkbox" id="checkbtn">
+                  <label for="checkbtn">
+                      <i style="margin-right: 10px;" class="fas fa-bars hamburger"><span>menu</span></i>
+                      <iconify-icon id="checkbtn2" class="quitter" icon="radix-icons:cross-1"></iconify-icon>
+                  </label>
 
-              <nav class="sidebar">
-                  <ul>
-                      <li class="sub_sidebar">
-                          <div style="padding: 35px 0;"></div>
-                          <a href="#">Fil actu</a>
-                          <a href="#">Video</a>
-                          <a href="#">Audio</a>
-                          <a href="#">mon choix</a>
-                          <a href="#">chaines</a>
-                      </li>
+                  <nav class="sidebar">
+                      <ul>
+                          <li class="sub_sidebar">
+                              <div style="padding: 35px 0;"></div>
+                              <a href="#">Fil actu</a>
+                              <a href="#">Video</a>
+                              <a href="#">Audio</a>
+                              <a href="#">mon choix</a>
+                              <a href="#">chaines</a>
+                          </li>
+                      </ul>
+                      <div class="empty"></div>
+                  </nav>
+              </div>
+              <nav class="navbar2">
+                  <ul class="navbar-items">
+                      <li><a href="/home.html">acceuil</a></li>
+                      <li><a href="#about">filactu</a></li>
+                      <li><a href="#services">info</a></li>
+                      <li><a href="#portfolio">sport</a></li>
+                      <li><a href="#contact">actualités locales</a></li>
+                      <li><a href="#home">culture et musique</a></li>
+                      <li><a href="#about">environnement et nature</a></li>
+                      <li><a href="#services">santé et bien-etre</a></li>
+                      <li><a href="#portfolio">sciences et technolgies</a></li>
+                      <li><a href="#contact">santé et bien-etre</a></li>
+                      <li><a href="#home">vie pratique</a></li>
+                      <li><a href="#about">tous les sujets</a></li>
                   </ul>
-                  <div class="empty"></div>
               </nav>
           </div>
-          <nav class="navbar2">
-              <ul class="navbar-items">
-                  <li><a href="#home">acceuil</a></li>
-                  <li><a href="#about">filactu</a></li>
-                  <li><a href="#services">info</a></li>
-                  <li><a href="#portfolio">sport</a></li>
-                  <li><a href="#contact">actualités locales</a></li>
-                  <li><a href="#home">culture et musique</a></li>
-                  <li><a href="#about">environnement et nature</a></li>
-                  <li><a href="#services">santé et bien-etre</a></li>
-                  <li><a href="#portfolio">sciences et technolgies</a></li>
-                  <li><a href="#contact">santé et bien-etre</a></li>
-                  <li><a href="#home">vie pratique</a></li>
-                  <li><a href="#about">tous les sujets</a></li>
-              </ul>
-          </nav>
-      </div>
       </div>
 
-  </head>
+    </div>
+    
     <div class="body">
       <section class="container">
         <header>MON PROFILE</header>
@@ -201,9 +208,11 @@
         </form>
       </section>
     </div>
+    
     <hr>
-    <section class="footer">
-      <div class="top_footer">
+    
+    <section class="footer" style="max-width: 1440px; margin: auto;">
+      <div class="top_footer" style="max-width: 1440px;margin: auto;">
           <div class="channels">
               <img src="images/RTBF.svg" class="RTBF" style="width:86px;height:30px;" alt="">
               <img src="images/Auvio-fd-noir.svg" style="width:86px;height:30px;" alt="">
@@ -212,7 +221,6 @@
               <img src="images/disponible-google-play.svg" style="width:133px;height:32px;" alt="">
               <img src="images/disponible-app-store.svg" style="width:133px;height:32px;" alt="">
           </div>
-          <!-- <hr class="blue_bar"> -->
           <div class="social_media">
               <span>suivez-nous</span>
               <div class="social_media_icon">
@@ -293,9 +301,10 @@
 
 
       </div>
-      <!-- <div class="credit"> copyright @ 2021 by <span>mr. web designer</span> </div> -->
 
-    </section>
+  </section>
+    
     <hr>
+  
   </body>
 </html>

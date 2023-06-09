@@ -55,6 +55,7 @@ body {
     font-size: 15px;
     font-weight: bolder;
     margin-bottom: 15px;
+    color : #b8c6de;
   }
 
 .article-container .main-text{
@@ -65,6 +66,7 @@ body {
 .article-container .meta-info{
     font-size: 12px;
     margin: 35px 0;
+    color : #b8c6de;
   }
 
 .article-body {
